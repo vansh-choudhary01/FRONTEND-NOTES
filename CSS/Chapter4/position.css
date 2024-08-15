@@ -1,0 +1,44 @@
+div {
+    height : 100px;
+    width : 100px;
+    background-color : green;
+    text-align : center;
+    border : 3px solid black;
+    margin : 20px;
+    display : inline-block;
+}
+
+#static {
+    background-color : yellow;
+    position : static; /*(dosn't work position properties like top, bottom)*/
+    top: 100px;
+    left : 100px; 
+}
+
+#relative {
+    background-color : yellow;
+    position : relative; /*self dependent*/
+    top: 100px;
+    left : 100px; 
+}
+
+#absolute {
+    background-color : rgb(255, 170, 0);
+    position : absolute; /*parent dependent*/
+    top: 100px;
+    left : 100px; 
+}
+
+#fixed {
+    background-color : rgb(102, 255, 0);
+    position : fixed; /*display dependent*/
+    top: 100px;
+    left : 100px; 
+}
+
+#sticky {
+    background-color : rgb(0, 30, 255);
+    position : sticky; /*screen & display dependent*/
+    top: 10px;
+    /* left : 100px;  */
+}

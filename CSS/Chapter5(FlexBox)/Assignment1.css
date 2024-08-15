@@ -1,0 +1,23 @@
+#board {
+    height : 400px;
+    width : 400px;
+    background-color : aliceblue;
+    border : 2px solid rgb(0, 172, 172);
+    font-size : 50px;
+    border-radius : 10px;
+    display : flex;
+    direction : row;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+    align-items : center;
+}
+
+.box {
+    width : 100px;
+    height : 100px;
+    background-color : gray;
+    border : 2px solid black;
+    border-radius : 10px;
+    display : flex;
+    justify-content: center;
+}

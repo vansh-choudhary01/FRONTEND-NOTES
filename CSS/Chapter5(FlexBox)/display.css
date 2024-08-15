@@ -1,0 +1,44 @@
+#container {
+    height : 600px;
+    width : 60%;
+    background-color: azure;
+    margin : 10px auto;
+    border : 2px solid black;
+    display : flex;
+    flex-direction : row;
+    /* justify-content: space-evenly; */
+    flex-wrap : wrap;
+    /* align-items : baseline; */ /*(all text set in same height for any paticular row. no metter box is big or small)*/
+    align-content : flex-start;
+}
+
+#org {
+    align-self : flex-start;
+    /* flex-basis : 30px; */ /*(set size initle if direction is row then work like width otherwise work like height)*/ 
+    /* flex-grow : 1; */ /*size will be grow when space is remaining*/
+    flex : 2 2 100px; /*(grow, shrink, basis)*/
+    flex : 2 100px; /*(grow, basis)*/
+    flex : 2; /*grow(unitless)*/
+    flex : 100px; /*(basis)*/
+}
+
+#blue {
+    /* flex-basis : 400px; */
+    /* width : 400px;   can't work */
+    flex-grow : 2;
+    /* max-width : 250px; */ /*max width after grow*/
+    /* min-width : 200px; */
+    /* flex-shrink : 3; */ /* when element's is overflow*/
+}
+
+h1 {
+    text-align : center;
+}
+
+#container div {
+    height : 100px;
+    width : 50px;
+    color : white;
+    text-align : center;
+    font-size : 1.5em;
+}

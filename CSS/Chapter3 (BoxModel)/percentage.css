@@ -1,0 +1,18 @@
+h1 {
+    border : 2px solid black;
+    width : 50%;
+}
+
+.outer {
+    width : 400px;
+    height : 400px;
+    background-color :blueviolet;
+    margin : 100px;
+}
+
+.inner {
+    width : 50%;
+    height : 30%;
+    background-color :brown;
+    margin : 10%;
+}

@@ -1,0 +1,54 @@
+section {
+    margin-top : 100px;
+}
+
+div {
+    width : 200px;
+    height : 50px;
+    text-align : center;
+    background-color : #7aa874;
+    border : 2px solid black;
+    margin : 10px;
+    margin : 0 auto;
+}
+
+div:nth-of-type(2n){
+    background-color : #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color : #ebb02d;
+}
+
+#one {
+    transition : 1s;
+    transform : rotate(45deg);
+}
+
+#two {
+    transition : 5s;
+    /* transform : scale(2); */
+    /* transform : scale(0.5, 2); */
+    /* transform : scaleX(4); */
+    transform: scaleY(0.2);
+}
+
+#three {
+    transition : 5s;
+    /* transform : translate(100px , 100px); */
+    /* transform : translateX(200px); */
+    transform : translateY(-100px);
+}
+
+#four {
+    transition : 10s;
+    /* transform : skew(30deg); */
+    /* transform : skew(-30deg); */
+    /* transform: skew(30deg , 30deg); */
+    transform : skewY(30deg);
+}
+
+#five {
+    transition : 10s;
+    transform : rotate(45deg) translateX(150px);
+}

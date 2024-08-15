@@ -1,0 +1,15 @@
+.eventBubbling {
+    height : 350px;
+    width : 700px;
+    background-color : pink;
+}
+
+.eventBubbling ul {
+    background-color : blue;
+    height : 100px;
+}
+
+.eventBubbling ul li {
+    background-color : lightgreen;
+    height : 33.3%;
+}

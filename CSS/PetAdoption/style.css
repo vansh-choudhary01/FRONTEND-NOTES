@@ -1,0 +1,50 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+#name {
+    color : darkorange;
+}
+
+h1 span {
+    color : darkgoldenrod;
+}
+
+#pets {
+    display : flex;
+    justify-content : space-evenly;
+}
+
+.card {
+    width : 400px;
+    height : 500px;
+    /* background-color : yellow; */
+    border : 2px solid black;
+    border-radius : 15px;
+    display : flex;
+    flex-wrap : wrap;
+    padding : 10px;
+    margin : 10px;
+}
+
+.card img {
+    width : 100%;
+    border-radius : 15px;
+    /* margin : 10px; */
+}
+
+h3 {
+    margin-top : 10px;
+}
+
+h4 {
+    text-align: right;
+    color : #3c787e;
+}
+
+@media (max-width : 375px) {
+    #pets {
+        flex-wrap : wrap;
+    }
+}

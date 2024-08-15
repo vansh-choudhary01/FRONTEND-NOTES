@@ -1,0 +1,22 @@
+div {
+    background-color:yellow;
+}
+
+form {
+    background-color:red;
+    color:white;
+}
+
+input {
+    background-color:inherit;
+    color:inherit;
+}
+
+button {
+    background-color:inherit;
+    color:inherit;
+}
+
+button:hover {
+    background-color:black;
+}

@@ -1,0 +1,23 @@
+span {
+    background-color : rgb(133, 71, 1);
+    color : white;
+    height : 100px;
+    width : 100px;
+    padding : 50px;
+    margin : 25px;
+    border : 2px solid black;
+    display : block;
+}
+
+.div {
+    width : 200px;
+    height : 200px;
+    background-color : yellowgreen;
+    border : 2px solid black;
+    margin : 25px;
+    display : inline-block;
+}
+
+#third {
+    display : none;
+}

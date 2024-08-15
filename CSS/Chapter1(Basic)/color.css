@@ -1,0 +1,16 @@
+h1 {
+    /* color : #8899ff; */
+    color : rgb(140, 160, 255);
+    /* color : rgb(255, 180, 0); */
+    background-color : gray;
+}
+
+p {
+    color : #ff0000;
+    background-color:bisque;
+}
+
+button {
+    color : gold;
+    background-color : black;
+}

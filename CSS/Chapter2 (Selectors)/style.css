@@ -1,0 +1,116 @@
+* {
+    font-family : 'Courier New';
+    /* background-color: yellow !important;
+    color : black !important; */
+}
+
+h3 {
+    color:purple;
+}
+
+h1,h3 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color:white;
+}
+
+.upvote {
+    background-color: green;
+    color:aliceblue;
+}
+
+.post a {
+    color:purple;
+    background-color:yellow;
+}
+
+nav ul li a {
+    color:hotpink;
+}
+
+/* targets an <h3> element that is immediately preceded by a <p> element (which <h3> is occour just after <p> tag)*/
+p + h3 {
+    text-decoration:underline;
+}
+
+.upvote + button {
+    background-color : lightblue;
+    color:darkblue;
+}
+
+/* targets any <input> element that is a direct child of a <div> element */
+div > input {
+    background-color : lightskyblue;    
+    /* border : 20px solid black; */
+}
+
+input[type="text"] {
+    color:darkgreen;
+}
+
+input[type="password"] {
+    color:red;
+}
+
+input[type]{
+    background-color:cornsilk;
+}
+
+div[id="myId"] p {
+    color: green;   
+}
+
+button:hover {
+    background-color:black;
+    color:white;
+}
+
+h3:hover {
+    text-decoration:overline;
+}
+
+button:active {
+    background-color:pink;
+    color:black;
+}
+
+p:active {
+    font-weight : bold;
+    color:green;
+}
+
+input[type="radio"]:checked + label{
+    font-weight : bold;
+    color: red;
+}
+
+div:nth-of-type(2n){
+    background-color:burlywood;
+}
+
+h1::first-letter {
+    color:black;
+}
+
+#myId p::first-line {
+    color:purple;
+}
+
+p::selection {
+    background-color: yellow;
+}
+
+h3 {
+    background-color:cadetblue;
+}
+
+h3 {
+    background-color:chartreuse;
+}
