@@ -1,0 +1,33 @@
+.box {
+    height : 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: skyblue;
+    padding : 10px 20px 40px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.price {
+    height: 30px;
+    width: 100%;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom : 0;
+}
+
+.list {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.price #old {
+    text-decoration: line-through;
+}
